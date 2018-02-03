@@ -1,0 +1,19 @@
+. {
+  log
+  example
+  redis dalongapp.com {
+        address 127.0.0.1:6379
+        connect_timeout 100
+        read_timeout 100
+        ttl 360
+        prefix _dns:
+    }
+    proxy . /etc/resolv.conf {
+            except mydomain.com
+    }
+    etcd rong.com {
+        stubzones
+        path /website
+        endpoint http://127.0.0.1:2379
+    }
+}
