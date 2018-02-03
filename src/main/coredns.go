@@ -1,6 +1,5 @@
 package main
 import (
-        _ "github.com/coredns/example"
         "github.com/coredns/coredns/coremain"
         _ "github.com/coredns/coredns/plugin/auto"
 	_ "github.com/coredns/coredns/plugin/autopath"
