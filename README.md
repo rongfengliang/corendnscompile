@@ -1,4 +1,4 @@
-# coredns cutomer plugin build demo project
+# coredns cutome plugin build demo project
 
 >  include default Corefile with build plugin
 
