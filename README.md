@@ -5,7 +5,7 @@
 - add example plugin
 - add redis plugin
 
-## init priject
+## init project
 ```bash
 go get github.com/coredns/coredns
 ```
